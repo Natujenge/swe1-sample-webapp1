@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VAT Calculator</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <h1>VAT Calculator</h1>
+
+    <div class="form">
+        <form>
+            <label for="fname">Amount:</label><br>
+            <input type="number" id="amount" name="amount" value="100"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="rate" id="rate" name="rate" value="16"><br><br>
+            <input type="button" onclick="backendCalc()" id="calculate" value="Calculate">
+            <input type="reset" onclick="clearForm()" id="clear" value="Clear">
+        </form>        
+    </div>
+
+    <div id="result"></div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

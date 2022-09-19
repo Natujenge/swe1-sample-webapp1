@@ -1,0 +1,16 @@
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    color: navy;
+    margin-left: 0px;
+}
+
+#result{
+    margin-top: 5px;
+    padding: 10px 0px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: navy;
+}
